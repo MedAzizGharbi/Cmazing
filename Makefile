@@ -3,7 +3,7 @@ cc = gcc
 CFLAGS = -Wall -Wextra -std=c11 -Iinclude
 
 #Source files
-SRC = src/main.c src/maze.c
+SRC = src/main.c src/maze.c src/bfs.c src/queue.c
 OBJ = $(SRC:.c=.o)
 
 #Output binary

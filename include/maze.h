@@ -13,6 +13,7 @@ typedef struct {
   int row;
   int col;
 } Point;
+
 Maze load_maze(const char *filename);
 void print_maze(const Maze *maze);
 bool find_point(const Maze *maze, char target, Point *point);
